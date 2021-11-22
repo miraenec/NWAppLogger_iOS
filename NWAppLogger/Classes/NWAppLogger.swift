@@ -6,6 +6,7 @@ public class NWAppLogger : NSObject {
     fileprivate var xtUid:String = ""
     fileprivate var ssId:String = ""
     
+    @objc
     public static let shared = NWAppLogger()
     
     @objc
