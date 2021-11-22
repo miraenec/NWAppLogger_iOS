@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NWAppLogger'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'NWAppLogger'
   s.description      = 'NWAppLogger is available through CocoaPods. To install it, simply add the following line to your Podfile'
   s.homepage         = 'https://github.com/hlkim/NWAppLogger_iOS'
