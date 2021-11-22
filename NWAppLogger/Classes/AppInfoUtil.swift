@@ -59,10 +59,10 @@ class AppInfoUtil: NSObject {
     }
     
     static func packageName(_ obj:AnyObject) -> String {
-        return NSStringFromClass(type(of: obj)).substringWithoutLastInstanceOf(".")!;
+        return NSStringFromClass(type(of: obj)).substringWithoutLastInstanceOf(".") ?? ""
     }
     
     static func className(_ obj:AnyObject) -> String {
-        return NSStringFromClass(type(of: obj)).lastComponent(".")!;
+        return NSStringFromClass(type(of: obj)).lastComponent(".") ?? ""
     }
 }
