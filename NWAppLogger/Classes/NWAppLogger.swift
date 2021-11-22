@@ -1,4 +1,5 @@
 import Foundation
+import AppTrackingTransparency
 
 @objc
 public class NWAppLogger : NSObject {
@@ -11,6 +12,10 @@ public class NWAppLogger : NSObject {
     
     @objc
     public func initLogger(_ obj:AnyObject, url:String, isLog:Bool, userInfo:Dictionary<String,AnyObject>) {
+        
+        ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+             // TODO: 추적에 따른 요청
+          })
         
         setUrl(url)
         setPrintLog(isLog)
