@@ -35,5 +35,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>개인에게 최적화된 광고를 제공하기 위해 사요자의 고아고 활동 정보를 수집합니다.</string>
 </dict>
 </plist>
